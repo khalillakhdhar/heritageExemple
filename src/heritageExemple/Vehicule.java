@@ -23,7 +23,7 @@ public Vehicule(String marque, float prix) {
 }
 @Override
 public String toString() {
-	return "Vehicule [marque=" + marque + ", prix=" + prix + "]";
+	return "[marque=" + marque + ", prix=" + prix + "]";
 }
 public Vehicule() {
 	super();

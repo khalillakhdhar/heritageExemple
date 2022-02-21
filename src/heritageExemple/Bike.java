@@ -18,7 +18,7 @@ public Bike(String marque, float prix, int hauteur) {
 
 @Override
 public String toString() {
-	return "Bike [hauteur=" + hauteur + ", toString()=" + super.toString() + "]";
+	return "Bike [hauteur=" + hauteur + ", " + super.toString() + "]";
 }
 
 }

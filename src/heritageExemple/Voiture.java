@@ -22,7 +22,7 @@ public Voiture(String marque, float prix, String carburant, int chevaux) {
 }
 @Override
 public String toString() {
-	return "Voiture [carburant=" + carburant + ", chevaux=" + chevaux + ", toString()=" + super.toString() + "]";
+	return "Voiture [carburant=" + carburant + ", chevaux=" + chevaux + ", " + super.toString() + "]";
 }
 
 
